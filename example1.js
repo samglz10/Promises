@@ -23,6 +23,7 @@ practice( {
 */
 
 //  https://dmitripavlutin.com/javascript-fetch-async-await/
+
 async function fakeStoreAPI(){
     try{
         console.log('try')
@@ -33,8 +34,10 @@ async function fakeStoreAPI(){
     }
     catch(error){
         console.log("catch")
-        console.log(error)
+        console.log(error);
     }
   
 }
 fakeStoreAPI();
+
+console.log()
